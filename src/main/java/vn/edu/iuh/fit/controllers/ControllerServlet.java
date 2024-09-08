@@ -20,13 +20,6 @@ public class ControllerServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         super.doPost(req, resp);
         String action = req.getParameter("action");
-        if ("create".equals(action)) {
-            // Code to add user
-        } else if ("update".equals(action)) {
-            // Code to update user
-        } else if ("delete".equals(action)) {
-            // Code to delete user
-        }
     }
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
